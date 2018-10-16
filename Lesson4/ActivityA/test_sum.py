@@ -14,7 +14,7 @@ class TestSum(unittest.TestCase):
         self.assertEqual(add_three_numbers(10,20,30), 60, "expected sum of 10, 20 and 30 to be 60 but got" + str(add_three_numbers(10,20,30)))
 
     def test_sum_4(self):
-        self.assertEqual(add_numbers(1,6), 6, "expected sum of 1 and 5 to be 6 but got " + str(add_numbers(1,5)))
+        self.assertEqual(add_numbers(1,5), 6, "expected sum of 1 and 5 to be 6 but got " + str(add_numbers(1,5)))
         
 if __name__ == "__main__":
     unittest.main()
